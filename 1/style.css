@@ -1,0 +1,96 @@
+
+body
+ {
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+    margin: 0;
+    padding: 20px 20% 20px 20%;
+}
+
+.grid-container
+ {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+    justify-content: center;
+}
+
+.grid-item
+ {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.grid-item .top
+ {
+    background-color: #ccc;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+.grid-item .bottom
+ {
+    background-color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+}
+
+.item1
+ {
+    grid-column: span 1;
+    grid-row: span 10;
+}
+
+.item2
+ {
+    grid-column: span 1;
+    grid-row: span 8;
+}
+
+.item3
+ {
+    grid-column: span 1;
+    grid-row: span 8;
+}
+
+.item4
+ {
+    grid-column: span 1;
+    grid-row: span 12;
+}
+
+.item5
+ {
+    grid-column: span 1;
+    grid-row: span 14;
+}
+
+.item6
+ {
+    grid-column: span 1;
+    grid-row: span 18;
+}
+
+.item7
+ {
+    grid-column: span 1;
+    grid-row: span 8;
+}
+
+.item8
+ {
+    grid-column: span 1;
+    grid-row: span 10;
+}
+
+.item9
+ {
+    grid-column: span 1;
+    grid-row: span 10;
+}
